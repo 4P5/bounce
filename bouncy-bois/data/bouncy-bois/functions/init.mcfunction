@@ -1,5 +1,5 @@
-scoreboard objectives add xBounce dummy
-scoreboard objectives add yBounce dummy
-scoreboard objectives add zBounce dummy
-scoreboard objectives add bounceConst dummy
-scoreboard players set -1 bounceConst -1
+scoreboard objectives add 4p5.bounce.x dummy
+scoreboard objectives add 4p5.bounce.y dummy
+scoreboard objectives add 4p5.bounce.z dummy
+scoreboard objectives add 4p5.bounce.const dummy
+scoreboard players set -1 4p5.bounce.const -1

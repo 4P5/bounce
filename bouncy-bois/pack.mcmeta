@@ -1,6 +1,6 @@
  {
        "pack": {
-           "pack_format": 3,
-           "description": "Test"
+           "pack_format": 5,
+           "description": "Makes literally everything bounce."
        }
    }
