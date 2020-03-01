@@ -11,16 +11,12 @@ I'll hopefully add some new features to this, for example:
 Main function (runs on a 20hz clock)
 
     execute at @a as @e[distance=..40,tag=!global.ignore] at @s run function bouncy-bois:calculate
-
+    
 At the coordinates of every player in the world, as anything within 40 blocks and without the `global.ignore` tag, run the calculation function.
-
-&#x200B;
 
 Calculation function!
 
-    (command [1]) execute store result score @s 4p5.bounce.x run data get entity @s Motion[0] 1000 [2]
-
-&#x200B;
+    [1] execute store result score @s 4p5.bounce.x run data get entity @s Motion[0] 1000 [2]
 
     [2] execute unless block ~.5 ~ ~ air store result entity @s Motion[0] double 0.001 run scoreboard players operation @s 4p5.bounce.x *= -1
 
