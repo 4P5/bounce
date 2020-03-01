@@ -1,3 +1,6 @@
+/!\\ WARNING /!\\
+This pack is highly destructive. Any entity in your world, such as pets, will most likely die. It will also cause quite a lot of lag (although it is optimized).
+
 A datapack that makes everything bounce!
 
 This datapack was a fun side project I made. Currently it makes everything in the world bounce (including things that probably shouldn't, like paintings)
