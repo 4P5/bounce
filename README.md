@@ -1,9 +1,11 @@
-/!\\ WARNING /!\\
+**/!\\ WARNING /!\\
 This pack is highly destructive. Any entity in your world, such as pets, will most likely die. It will also cause quite a lot of lag (although it is optimized).
 
 A datapack that makes everything bounce!
 
 This datapack was a fun side project I made. Currently it makes everything in the world bounce (including things that probably shouldn't, like paintings)
+
+Try it out by throwing an item/shooting a projectile onto the ground. It should reverse its direction, "bounce"ing.
 
 I'll hopefully add some new features to this, for example:
   * Bouncy pearls. A craftable ender pearl that bounces. There would be some way of making it stop, like sneaking.
@@ -11,6 +13,8 @@ I'll hopefully add some new features to this, for example:
   * Optimizations, such as running once every 5 ticks to save on performance.
   * Grenades. Specifically, bouncy ones! (actually already have code for this :P)
    
+**Here's an explanation if you want to know how it works:
+
 Main function (runs on a 20hz clock)
 
     execute at @a as @e[distance=..40,tag=!global.ignore] at @s run function bouncy-bois:calculate
