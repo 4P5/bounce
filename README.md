@@ -1,5 +1,5 @@
 **/!\\ WARNING /!\\
-This pack is highly destructive. Any entity in your world, such as pets, will most likely die. It will also cause quite a lot of lag (although it is optimized).
+This pack is highly destructive. Any entity in your world, such as pets, will most likely die. It will also cause quite a lot of lag (although it is optimized).**
 
 A datapack that makes everything bounce!
 
@@ -13,7 +13,7 @@ I'll hopefully add some new features to this, for example:
   * Optimizations, such as running once every 5 ticks to save on performance.
   * Grenades. Specifically, bouncy ones! (actually already have code for this :P)
    
-**Here's an explanation if you want to know how it works:
+**Here's an explanation if you want to know how it works:**
 
 Main function (runs on a 20hz clock)
 
